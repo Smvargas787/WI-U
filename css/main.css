@@ -1,0 +1,35 @@
+  /*Body*/
+  #wrapper{
+      color: white;
+      background: linear-gradient(#000000, #c0c0c0);
+  }
+
+  /*Header*/
+  h1, h2, h3{
+      color: gold;
+  }
+
+  /*Table*/
+
+  table {
+      border-spacing: 20px;
+      background: radial-gradient(#000000, #ffd700);
+      border: 5px groove #000000;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 800px;
+  }
+
+  /*Table Headers*/
+  table th{
+      border: 3px groove #ffffff;
+      width: 170px;
+      padding: 5px;
+      margin: 10px auto;
+      text-transform: uppercase;
+      background-color: #000000;
+  }
+
+  
