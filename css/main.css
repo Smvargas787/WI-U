@@ -1,12 +1,49 @@
-  /*Body*/
+  /*Wrapper*/
   #wrapper{
       color: white;
       background: linear-gradient(#000000, #c0c0c0);
+      width: 1220px;
+      margin-right: 100px;
+      margin-left: 100px;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-radius: 4px;
   }
+
+  /*Body*/
 
   /*Header*/
   h1, h2, h3{
       color: gold;
+  }
+
+  /*Heading 1*/
+  #Title{
+      border-bottom:2px solid #ffffff;
+      padding-bottom:10px;
+      margin-top:5px;
+      text-align: center;
+      width: 1220px;
+  }
+
+  #Title{
+      padding: 5px;
+  }
+
+  /*Heading 2*/
+#Description{
+    text-indent: 30px;
+}
+
+/*Paragraphs*/
+p{
+    padding: 8px;
+}
+
+  /*Heading 3*/
+  #Usability{
+      text-align: center;
+      width: 1220px;
   }
 
   /*Table*/
@@ -15,11 +52,12 @@
       border-spacing: 20px;
       background: radial-gradient(#000000, #ffd700);
       border: 5px groove #000000;
-      margin-right: 50px;
-      margin-left: 50px;
+      margin-right: 210px;
+      margin-left: 210px;
       margin-top: auto;
       margin-bottom: auto;
       width: 800px;
+
   }
 
   /*Table Headers*/
@@ -30,6 +68,22 @@
       margin: 10px auto;
       text-transform: uppercase;
       background-color: #000000;
+      color: #ffffff;
   }
 
-  
+  /*Table Data*/
+table td{
+      font-size: 18px;
+      text-align: center;
+}
+
+td a{
+    color: #ffffff;
+}
+
+/*Footer*/
+  footer{
+      font-size: 12px;
+      text-align: center;
+      padding: 15px;
+  }
